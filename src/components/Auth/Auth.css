@@ -1,0 +1,24 @@
+
+body {
+    background-image: linear-gradient(to right, #FF70A6, #E9FF70);
+
+}
+
+.Auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Auth-inner {
+    width: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px;
+
+}
+
+.helo {
+    color: white;
+}
