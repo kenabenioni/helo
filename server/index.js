@@ -15,3 +15,8 @@ const express = require("express"),
   })
   .catch(err => console.log(err));
 
+  app.post('/api/register', ctrl.register)
+  app.post('/api/login', ctrl.login)
+
+  
+
